@@ -29,6 +29,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo Running TEST PLANS VIA GITHUB.
       - name: Run Testsigma Automation Suites
         run: |
           cd ${{ github.workspace }}/testsigma_new
